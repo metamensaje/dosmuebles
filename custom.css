@@ -755,4 +755,20 @@ body.template-category .js-footer {
 .template-account-login .account-page {
   border-top: var(--border-standard);
   padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+/* search */
+.template-search .page-header {
+  padding: 2rem 0 !important;
+}
+
+.template-search .category-body {
+  border-top: var(--border-standard);
+  padding-top: 4rem;
+}
+
+body:not(.template-home) .js-footer {
+  border-top: var(--border-standard);
+  padding-top: var(--spacing-section);
 }
