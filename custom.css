@@ -383,7 +383,8 @@ body.template-category > .container .page-header {
 }
 
 body.template-category > .container .mt-2.mb-4.text-center {
-  margin: 48px 0 0 !important;
+  margin: 48px auto 0 !important;
+  max-width: 640px;
 }
 
 body.template-category > .container .page-header .breadcrumbs {
@@ -766,6 +767,7 @@ body.template-category .js-footer {
 .template-search .category-body {
   border-top: var(--border-standard);
   padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 body:not(.template-home) .js-footer {
