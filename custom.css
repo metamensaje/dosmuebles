@@ -155,6 +155,9 @@ a.js-institutional-message-button.btn-link {
 }
 
 /* Navigation */
+.nav-desktop-list {
+  padding: 24px 0 36px;
+}
 .nav-desktop-list > .nav-item {
   position: relative;
 }
@@ -462,6 +465,13 @@ body.template-category .item-description {
   font-size: 10px;
 }
 
-section#related-products {
-  padding-top: 0 !important;
+.template-product section#related-products {
+/*   padding-top: 0 !important; */
+}
+
+/* about */
+
+.about-content-wrap p {
+  margin: 2rem 0 4rem;
+  text-align: center;
 }
