@@ -625,13 +625,23 @@ body.template-category .js-footer {
   border-bottom: var(--border-standard);
   padding-bottom: 1.5rem;
 }
+#modal-cart .js-cart-item .row.align-items-center{
+  align-items: flex-start !important;
+}
+#modal-cart .js-cart-item .col.pl-3.align-items-center.my-2 {
+  margin-top: 0 !important;
+}
+#modal-cart .cart-item-image-col {
+  width: 120px;
+  height: 160px;
+}
+
 #modal-cart .btn.btn-link.font-small[data-component] {
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: 10px !important;
   text-underline-offset: 2px;
 }
-
 #modal-cart .js-visible-on-cart-filled .text-center:last-child .btn-link {
   margin-top: 1.5rem;
   text-transform: uppercase;
