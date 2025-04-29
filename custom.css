@@ -88,6 +88,7 @@
 @media (min-width: 768px) {
   .head-main {
     padding: 32px 0 24px !important;
+    border-bottom: var(--border-standard);
   }
   
   .section-featured-home .item-description {
@@ -156,7 +157,7 @@ a.js-institutional-message-button.btn-link {
 
 /* Navigation */
 .nav-desktop-list {
-  padding: 24px 0 36px;
+  padding: 24px 0 8px;
 }
 .nav-desktop-list > .nav-item {
   position: relative;
@@ -475,3 +476,5 @@ body.template-category .item-description {
   margin: 2rem 0 4rem;
   text-align: center;
 }
+
+.template-page .
