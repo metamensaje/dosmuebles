@@ -367,11 +367,13 @@ body.template-category .item-description {
   }
 }
 
-
 #single-product > .container .row > .col-md-7.pb-3.pr-md-2 .col.px-3{
   padding-left: 4px !important;
 }
 
+#single-product .user-content p {
+    margin-bottom: .25rem !important;
+}
 
 #related-products .products-section-container .item-image img {
     width: 100%;
