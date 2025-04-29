@@ -431,7 +431,10 @@ body.template-category .item-description {
 
 #single-product .swiper-wrapper {
   flex-direction: column;
-  gap: 12px;
+}
+
+#single-product .js-swiper-product .swiper-wrapper {
+    gap: 12px;
 }
 
 .label.label-default {
