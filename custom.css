@@ -293,9 +293,17 @@ body.template-category > .container .page-header .breadcrumbs {
   display: none;
 }
 
-.btn-link[data-component="filter-button"] {
+body.template-category .btn-link[data-component="filter-button"] {
     text-transform: uppercase;
     letter-spacing: .05em;
     font-size: .75rem;
     text-underline-offset: 4px;
+}
+
+body.template-category .item-name {
+  font-size: 14px !important;
+}
+
+body.template-category .item-description {
+  padding: 40px 0 60px;
 }
