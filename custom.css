@@ -139,3 +139,14 @@ section.section-featured-home, section.section-banners-home {
     padding: 40px 0;
   }
 }
+
+/* Category */
+
+.js-banner .js-textbanner {
+  margin-bottom: 30px;
+}
+
+.js-banner .js-textbanner .js-textbanner-image-container .js-textbanner-image {
+    aspect-ratio: 1 / 1;
+}
+
