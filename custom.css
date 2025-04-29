@@ -1,10 +1,4 @@
-.js-banners-news .js-banner-container.container {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-100%);
-  z-index: 9;
-  max-width: unset;
-}
+/* Overlay */
 
 .js-banners-news .js-banner-container.container-fluid::after {
   content: "";
@@ -22,32 +16,52 @@
   padding: 0;
 }
 
-.js-banners-news .js-banners-section-title.js-banners-news-title {
+/* Title */
+
+.js-banners-news .js-banner-title {
   font-family: "Gilda Display";
   color: #f1ece5;
   font-size: 48px;
   letter-spacing: 0;
-  margin: 0 !important;
-  padding: 0 !important;
 }
+
+/* Message */
 
 .section-institutional-home .js-institutional-message-title {
   text-wrap: balance;
 }
 
 a.js-institutional-message-button.btn-link {
-  padding: 1rem 2rem;
+  padding: 1.2rem 1.8rem;
   border: 1px solid;
   margin-top: 2rem;
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 0.75rem;
+  letter-spacing: .05em;
 }
+
+section.section-institutional-home {
+    position: relative;
+}
+
+section.section-institutional-home::after {
+    width: 100%;
+    height: 1px;
+    content: '';
+    background: #E0DBD8;
+    position: absolute;
+    bottom: 0;
+}
+
+/* WhatsApp */
 
 .btn-whatsapp {
   background-color: #2e2e2e;
 }
+
+/* Menu & Submenu */
 
 .desktop-list-subitems .nav-item .list-subitems {
   display: none;
@@ -75,3 +89,8 @@ a.js-institutional-message-button.btn-link {
   letter-spacing: 0.05em;
   font-size: 0.75rem;
 }
+
+.desktop-list-subitems .nav-item .nav-list-link {
+  font-size: 0.75rem;
+}
+
