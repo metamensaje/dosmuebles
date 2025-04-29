@@ -609,6 +609,9 @@ body.template-category .js-footer {
   border-top: var(--border-standard);
   padding: 1rem 0;
   margin-bottom: 0 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 12px;
 }
 
 .template-contact .list .contact-link {
