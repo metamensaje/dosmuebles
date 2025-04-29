@@ -1,7 +1,7 @@
 /* Variable and Base Styles */
 :root {
   --heading-font: "Gilda Display", serif;
-  --body-font: inherit; /* Assuming this is defined elsewhere */
+  --body-font: "Arimo", sans-serif; /* Assuming this is defined elsewhere */
   
   /* Colors */
   --color-primary: #2e2e2e;
