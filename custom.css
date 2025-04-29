@@ -552,15 +552,23 @@ body.template-category .item-description {
 /* modal */
 
 @media (min-width: 768px) {
-  .modal-header {
+  #nav-filters .modal-header {
     background-color: none;
   }
-  .modal-header .pl-md-5 {
+  #nav-filters .modal-header .pl-md-5 {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 600;
     font-size: 10px;
     text-align: left;
     padding-left: 0 !important;
+  }
+  #nav-filters .modal-left {
+    right: -100%;
+    left: unset;
+  }
+  #nav-filters .modal-left.modal-show {
+    left: unset;
+    right: 0;
   }
 }
