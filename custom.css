@@ -92,6 +92,10 @@ a.js-institutional-message-button.btn-link {
   padding: 20px 0 0;
 }
 
+.desktop-dropdown > .container {
+  padding: 0;
+}
+
 .desktop-list-subitems {
   display: flex;
   flex-direction: column;
