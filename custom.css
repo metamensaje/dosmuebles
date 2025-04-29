@@ -494,11 +494,11 @@ body.template-category .js-footer {
   display: flex;
   flex-direction: column;
   margin: 0 !important;
-  gap: 30px;
 }
 #product_form .js-product-variants + .row .col-4 {
   padding: 0 !important;
   max-width: 100%;
+  margin-bottom: 32px;
 }
 #product_form .js-product-variants + .row .col-4::before {
   content: "Cantidad";
