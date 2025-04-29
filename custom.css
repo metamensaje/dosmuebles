@@ -107,8 +107,14 @@ a.js-institutional-message-button.btn-link {
   font-size: 0.75rem;
 }
 
+.desktop-list-subitems .nav-item {
+  border: 1px solid #E0DBD8;
+}
+
 .desktop-list-subitems .nav-item .nav-list-link {
   font-size: 0.75rem;
+  padding: 1rem 2rem;
+  margin: 0;
 }
 
 /* Featured Sections */
