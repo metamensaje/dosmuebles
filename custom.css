@@ -114,11 +114,11 @@ section.section-featured-home::after {
 }
 
 /* Featured */
-.section-featured-home {
+section.section-featured-home, section.section-banners-home {
   padding: 64px 0;
 }
 
-.js-products-featured-title {
+.js-products-featured-title, .js-banners-section-title {
   font-family: "Gilda Display";
   color: #2E2E2E;
   font-size: 24px;
@@ -126,11 +126,11 @@ section.section-featured-home::after {
   margin-bottom: 72px !important;
 }
 
-.section-featured-home .js-item-product .js-item-info-container .js-item-with-secondary-image .js-item-image-padding {
+.section-featured-home .js-item-product .js-item-info-container .js-item-image-padding {
   padding-bottom: 140% !important;
 }
 
-.section-featured-home .js-item-product .js-item-info-container .js-item-with-secondary-image .js-item-image-padding img {
+.section-featured-home .js-item-product .js-item-info-container .js-item-image-padding img {
   width: 100%;
 }
 
