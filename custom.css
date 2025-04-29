@@ -578,3 +578,42 @@ body.template-category .js-footer {
     right: 0;
   }
 }
+
+/* contact */
+
+.template-contact .breadcrumbs {
+  display: none !important;
+}
+.template-contact .page-header {
+  padding: 2rem 0 !important;
+}
+.template-contact .contact-page {
+  border-top: var(--border-standard);
+  padding-top: 4rem;
+}
+.template-contact .contact-page .container > .row > .col-md-6 {
+  flex: 1;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+
+.template-contact .list {
+  text-align: left;
+  border-top: var(--border-standard);
+  border-bottom: var(--border-standard);
+}
+
+.template-contact .list li.mb-3 {
+  border-top: var(--border-standard);
+  padding: 1rem 0;
+  margin-bottom: 0 !important;
+}
+
+.template-contact .list .contact-link {
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 12px;
+}
