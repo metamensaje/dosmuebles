@@ -165,6 +165,6 @@ a.js-institutional-message-button.btn-link {
 }
 
 /* First Row */
-.js-home-sections-container .section-banners-home {
-  padding: 0 !important;
+.section-banners-home[data-store="home-banner-news"] {
+    padding: 0 !important;
 }
