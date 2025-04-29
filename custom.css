@@ -244,6 +244,7 @@ a.js-institutional-message-button.btn-link {
   .js-item-info-container
   .js-item-image-padding
   img,
+.js-item-product .item-image img,
 .product-slider-image,
 #related-products .products-section-container .item-image img {
   width: 100%;
