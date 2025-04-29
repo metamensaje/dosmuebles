@@ -625,6 +625,12 @@ body.template-category .js-footer {
   border-bottom: var(--border-standard);
   padding-bottom: 1.5rem;
 }
+#modal-cart .btn.btn-link.font-small[data-component] {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: 10px !important;
+  text-underline-offset: 2px;
+}
 
 #modal-cart .js-visible-on-cart-filled .text-center:last-child .btn-link {
   margin-top: 1.5rem;
