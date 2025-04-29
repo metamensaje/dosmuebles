@@ -220,8 +220,7 @@ a.js-institutional-message-button.btn-link {
 .section-featured-home .js-item-product .js-item-info-container .js-item-image-padding,
 .category-body .js-item-product .js-item-info-container .js-item-image-padding,
 #related-products .products-section-container .js-item-image-padding,
-#single-product > .container .row > .col-md-7.pb-3.pr-md-2 .col.px-3,
-.js-product-slide-link {
+.js-product-slide-link, .js-product-thumb {
   padding-bottom: 140% !important;
 }
 
