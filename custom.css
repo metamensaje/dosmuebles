@@ -412,6 +412,12 @@ body.template-category .js-footer {
 }
 
 /* Product Page */
+
+.template-product .breadcrumbs {
+  display: flex;
+  align-items: center;
+}
+
 #single-product {
   padding-top: 0 !important;
 }
