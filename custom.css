@@ -1,6 +1,87 @@
 /* Variable and Base Styles */
 :root {
   --heading-font: "Gilda Display", serif;
+  --body-font: inherit; /* Assuming this is defined elsewhere */
+  
+  /* Colors */
+  --color-primary: #2e2e2e;
+  --color-secondary: #4d301b;
+  --color-light: #f1ece5;
+  --color-border: #e0dbd8;
+  --color-background-alt: #dddad3;
+  --color-text-muted: #7f7c76;
+  
+  /* Spacing */
+  --spacing-xs: 0.75rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 2.5rem;
+  --spacing-xxl: 4rem;
+  --spacing-section: 64px;
+  --spacing-section-large: 80px;
+  
+  /* Typography */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 2rem;
+  --font-size-xxl: 3rem;
+  
+  /* Common styles */
+  --letter-spacing-wide: 0.05em;
+  --text-underline-offset: 0.4rem;
+  --border-standard: 1px solid var(--color-border);
+}
+
+/* Common Text Styles */
+.uppercase-text {
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  font-size: var(--font-size-xs);
+}
+
+/* Border Utilities */
+.border-standard {
+  border: var(--border-standard);
+}
+
+.border-top {
+  border-top: var(--border-standard);
+}
+
+.border-bottom {
+  border-bottom: var(--border-standard);
+}
+
+.border-right {
+  border-right: var(--border-standard);
+}
+
+.border-left {
+  border-left: var(--border-standard);
+}
+
+/* Button Styles */
+.btn-standard {
+  padding: 1.2rem 1.8rem;
+  border: 1px solid;
+  margin-top: var(--spacing-md);
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+/* Section Spacing */
+.section-padding-standard {
+  padding: var(--spacing-section) 0 !important;
+}
+
+.section-padding-large {
+  padding: var(--spacing-section-large) 0;
 }
 
 /* Header */
@@ -8,6 +89,7 @@
   .head-main {
     padding: 32px 0 24px !important;
   }
+  
   .section-featured-home .item-description {
     padding: 40px 0 20px;
   }
@@ -23,31 +105,29 @@
   z-index: 0;
   height: 100%;
   width: 100%;
-  background: #4d301b;
+  background: var(--color-secondary);
   opacity: 0.5;
 }
 
 .js-banners-news .js-banner-title {
-  font-family: "Gilda Display";
-  color: #f1ece5;
-  font-size: 48px;
+  font-family: var(--heading-font);
+  color: var(--color-light);
+  font-size: var(--font-size-xxl);
   letter-spacing: 0;
 }
 
 .textbanner-text.over-image.over-image-invert .btn-link,
-.textbanner-text.over-image.over-image-invert
-  .search-suggestions
-  .search-suggestions-all-link {
+.textbanner-text.over-image.over-image-invert .search-suggestions .search-suggestions-all-link {
   color: var(--main-background);
-  letter-spacing: 0.05em;
+  letter-spacing: var(--letter-spacing-wide);
   text-transform: uppercase;
-  font-size: 0.75rem;
-  text-underline-offset: 0.4rem;
+  font-size: var(--font-size-xs);
+  text-underline-offset: var(--text-underline-offset);
 }
 
 /* Institutional Sections */
 .section-institutional-home {
-  padding: 80px 0;
+  padding: var(--spacing-section-large) 0;
   position: relative;
 }
 
@@ -60,25 +140,18 @@ section.section-featured-home::after {
   width: 100%;
   height: 1px;
   content: "";
-  background: #e0dbd8;
+  background: var(--color-border);
   position: absolute;
   bottom: 0;
 }
 
 /* Buttons */
 a.js-institutional-message-button.btn-link {
-  padding: 1.2rem 1.8rem;
-  border: 1px solid;
-  margin-top: 2rem;
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.75rem;
-  letter-spacing: 0.05em;
+  composes: btn-standard;
 }
 
 .btn-whatsapp {
-  background-color: #2e2e2e;
+  background-color: var(--color-primary);
 }
 
 /* Navigation */
@@ -110,18 +183,18 @@ a.js-institutional-message-button.btn-link {
 .nav-list-link {
   position: relative;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.75rem;
+  letter-spacing: var(--letter-spacing-wide);
+  font-size: var(--font-size-xs);
 }
 
 .desktop-list-subitems .nav-item {
-  border: 1px solid #e0dbd8;
+  border: var(--border-standard);
   border-bottom: 0;
 }
 
 .desktop-list-subitems .nav-item .nav-list-link {
-  font-size: 0.75rem;
-  padding: 1rem 2rem;
+  font-size: var(--font-size-xs);
+  padding: var(--spacing-sm) var(--spacing-lg);
   margin: 0;
   text-align: center;
   white-space: nowrap;
@@ -131,33 +204,38 @@ a.js-institutional-message-button.btn-link {
 .section-featured-home,
 .section-products-related,
 .section-banners-home {
-  padding: 64px 0 !important;
+  composes: section-padding-standard;
 }
 
 .js-products-featured-title,
 .js-banners-section-title {
-  font-family: "Gilda Display";
-  color: #2e2e2e;
-  font-size: 24px;
+  font-family: var(--heading-font);
+  color: var(--color-primary);
+  font-size: var(--font-size-lg);
   letter-spacing: 0;
   margin-bottom: 72px !important;
 }
 
-.section-featured-home
-  .js-item-product
-  .js-item-info-container
-  .js-item-image-padding,
+/* Product Image Aspect Ratio */
+.section-featured-home .js-item-product .js-item-info-container .js-item-image-padding,
 .category-body .js-item-product .js-item-info-container .js-item-image-padding,
-#related-products .products-section-container .js-item-image-padding {
+#related-products .products-section-container .js-item-image-padding,
+#single-product > .container .row > .col-md-7.pb-3.pr-md-2 .col.px-3,
+.js-product-slide-link {
   padding-bottom: 140% !important;
 }
 
-.section-featured-home
-  .js-item-product
-  .js-item-info-container
-  .js-item-image-padding
-  img {
+/* Special case for product page */
+#single-product > .container .row > .col-md-7.pb-3.pr-md-2 .col.px-3 {
+  padding-left: 4px !important;
+}
+
+.section-featured-home .js-item-product .js-item-info-container .js-item-image-padding img,
+.product-slider-image,
+#related-products .products-section-container .item-image img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Category */
@@ -169,13 +247,10 @@ a.js-institutional-message-button.btn-link {
   aspect-ratio: 1 / 1;
 }
 
-.section-banners-home[data-store="home-banner-categories"]
-  .js-banner
-  .js-textbanner
-  .textbanner-text.over-image
-  .js-banner-title {
-  color: #f1ece5;
-  font-size: 16px;
+.section-banners-home[data-store="home-banner-categories"] .js-banner .js-textbanner 
+.textbanner-text.over-image .js-banner-title {
+  color: var(--color-light);
+  font-size: var(--font-size-sm);
   font-family: var(--body-font);
 }
 
@@ -186,8 +261,8 @@ a.js-institutional-message-button.btn-link {
 
 /* Image with text */
 .section-modules-home {
-  padding: 80px 0;
-  background: #dddad3;
+  padding: var(--spacing-section-large) 0;
+  background: var(--color-background-alt);
 }
 
 .section-modules-home .js-textbanner {
@@ -206,7 +281,7 @@ a.js-institutional-message-button.btn-link {
 }
 
 .section-modules-home .js-textbanner .js-banner-title {
-  font-size: 24px;
+  font-size: var(--font-size-lg);
   margin-bottom: 1.5rem !important;
 }
 
@@ -218,22 +293,16 @@ a.js-institutional-message-button.btn-link {
 }
 
 .section-modules-home .js-textbanner .btn-link {
-  padding: 1.2rem 1.8rem;
-  border: 1px solid;
-  margin-top: 1rem;
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.75rem;
-  letter-spacing: 0.05em;
+  composes: btn-standard;
 }
 
 /* Footer Icons */
 .section-informative-banners .container {
   max-width: none;
-  border-bottom: 1px solid #e0dbd8;
-  border-top: 1px solid #e0dbd8;
+  border-top: var(--border-standard);
+  border-bottom: var(--border-standard);
 }
+
 .section-informative-banners .js-informative-banners.swiper-container {
   margin-bottom: 0 !important;
 }
@@ -244,31 +313,25 @@ a.js-institutional-message-button.btn-link {
 }
 
 .section-informative-banners .js-informative-banners .swiper-slide:first-child {
-  border-right: 1px solid #e0dbd8;
+  border-right: var(--border-standard);
 }
 
 .section-informative-banners .js-informative-banners .swiper-slide.mr-md-0 {
-  border-left: 1px solid #e0dbd8;
+  border-left: var(--border-standard);
+  margin-right: 30px;
 }
 
-.section-informative-banners
-  .js-informative-banners
-  .swiper-slide
-  .d-inline-block.icon-60px {
+.section-informative-banners .js-informative-banners .swiper-slide .d-inline-block.icon-60px {
   width: 24px;
   height: 24px;
   margin-bottom: 0.75rem !important;
 }
 
 .section-informative-banners .js-informative-banners .swiper-slide h3 {
-  font-size: 0.75rem;
+  font-size: var(--font-size-xs);
   font-family: var(--body-font);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.section-informative-banners .js-informative-banners .swiper-slide.mr-md-0 {
-  margin-right: 30px;
+  letter-spacing: var(--letter-spacing-wide);
 }
 
 /* Footer */
@@ -276,29 +339,22 @@ a.js-institutional-message-button.btn-link {
   max-height: 120px;
 }
 
-.js-footer .mb-4:nth-of-type(2) {
+.js-footer .mb-4:nth-of-type(2),
+.js-footer .my-2,
+.social-share-button {
   display: none;
 }
 
-.js-footer .my-2 {
-  display: none;
-}
-
-.js-footer .d-inline-block.mr-md-2.font-smallest {
-  font-size: 0.75rem !important;
-  color: #7f7c76;
-}
-
+.js-footer .d-inline-block.mr-md-2.font-smallest,
 .js-footer .font-smallest {
-  font-size: 0.75rem !important;
-  color: #7f7c76 !important;
+  font-size: var(--font-size-xs) !important;
+  color: var(--color-text-muted) !important;
 }
 
-/* Category */
-
+/* Category Page */
 body.template-category > .container {
-  border-top: 1px solid #e0dbd8;
-  border-bottom: 1px solid #e0dbd8;
+  border-top: var(--border-standard);
+  border-bottom: var(--border-standard);
   max-width: unset;
   margin-bottom: 28px;
   padding: 60px 0 !important;
@@ -318,8 +374,8 @@ body.template-category > .container .page-header .breadcrumbs {
 
 body.template-category .btn-link[data-component="filter-button"] {
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  font-size: 0.75rem;
+  letter-spacing: var(--letter-spacing-wide);
+  font-size: var(--font-size-xs);
   text-underline-offset: 4px;
 }
 
@@ -331,11 +387,10 @@ body.template-category .item-description {
   padding: 40px 0 60px;
 }
 
-/* product */
-
+/* Product Page */
 #single-product {
   padding-top: 0 !important;
-  border-top: 1px solid #e0dbd8;
+  border-top: var(--border-standard);
 }
 
 #single-product > .container {
@@ -345,76 +400,66 @@ body.template-category .item-description {
 }
 
 #single-product > .container .row > .col[data-store] {
-  padding-left: 2.5rem !important;
-  padding-right: 2.5rem !important;
+  padding-left: var(--spacing-xl) !important;
+  padding-right: var(--spacing-xl) !important;
 }
 
 @media (min-width: 768px) {
   #single-product .swiper-product-thumb {
     height: auto !important;
   }
+  
   #single-product .swiper-product-thumb + div {
     display: none !important;
   }
+  
   .product-thumb img {
     border-radius: 0 !important;
   }
+  
   .product-thumbs-container {
     width: 125px;
   }
+  
   .js-product-thumb {
     margin-bottom: 4px !important;
   }
 }
+
 #single-product .user-content p {
   margin-bottom: 0.25rem !important;
 }
-#single-product > .container .row > .col-md-7.pb-3.pr-md-2 .col.px-3 {
-  padding-left: 4px !important;
-  padding-bottom: 135% !important;
-}
+
 #single-product .swiper-wrapper {
-    flex-direction: column;
-    gap: 12px;
+  flex-direction: column;
+  gap: 12px;
 }
+
 .label.label-default {
   letter-spacing: 0 !important;
   font-size: 12px !important;
 }
+
 .js-product-name {
-    margin: 20px 0 !important;
+  margin: 20px 0 !important;
 }
+
 .js-product-variants {
   flex-direction: column;
 }
+
 .js-product-variants-group {
   width: 100% !important;
   max-width: unset;
 }
+
 .form-group .form-label {
   text-transform: uppercase;
   font-weight: 500;
-  letter-spacing: 0.05em;
+  letter-spacing: var(--letter-spacing-wide);
   font-size: 10px;
-}
-.js-product-slide-link {
-  padding-bottom: 135% !important;
-}
-.product-slider-image {
-  height: 100%;
-  max-width: 100%;
-  object-fit: cover;
-  width: 100%;
-}
-
-.social-share-button {
-  display: none;
 }
 
 section#related-products {
-    padding-top: 0 !important;
-}
-#related-products .products-section-container .item-image img {
-  width: 100%;
-  object-fit: cover;
+  padding-top: 0 !important;
 }
