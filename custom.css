@@ -75,15 +75,6 @@
   letter-spacing: var(--letter-spacing-wide);
 }
 
-/* Section Spacing */
-.section-padding-standard {
-  padding: var(--spacing-section) 0 !important;
-}
-
-.section-padding-large {
-  padding: var(--spacing-section-large) 0;
-}
-
 /* Header */
 @media (min-width: 768px) {
   .head-main {
@@ -107,7 +98,8 @@
   height: 100%;
   width: 100%;
   background: var(--color-secondary);
-  opacity: 0.5;
+  opacity: 0.35;
+  mix-blend-mode: multiply;
 }
 
 .js-banners-news .js-banner-title {
@@ -150,7 +142,14 @@ section.section-featured-home::after {
 
 /* Buttons */
 a.js-institutional-message-button.btn-link {
-  composes: btn-standard;
+  padding: 1.2rem 1.8rem;
+  border: 1px solid;
+  margin-top: var(--spacing-md);
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-wide);
 }
 
 .btn-whatsapp {
@@ -210,7 +209,7 @@ a.js-institutional-message-button.btn-link {
 .section-featured-home,
 .section-products-related,
 .section-banners-home {
-  composes: section-padding-standard;
+  padding: var(--spacing-section) 0 !important;
 }
 
 .js-products-featured-title,
