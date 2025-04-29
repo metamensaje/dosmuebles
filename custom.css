@@ -248,7 +248,7 @@ a.js-institutional-message-button.btn-link {
   color: #7F7C76;
 }
 
-.js-footer .claim-link.d-md-inline-block.mt-md-0.mt-3.font-smallest {
+.js-footer .claim-link.font-smallest {
   font-size: .75rem !important;
-  color: #7F7C76;
+  color: #7F7C76 !important;
 }
