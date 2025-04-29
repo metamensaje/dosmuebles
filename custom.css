@@ -141,7 +141,8 @@ a.js-institutional-message-button.btn-link {
   margin-bottom: 72px !important;
 }
 
-.section-featured-home .js-item-product .js-item-info-container .js-item-image-padding {
+.section-featured-home .js-item-product .js-item-info-container .js-item-image-padding,
+.category-body .js-item-product .js-item-info-container .js-item-image-padding {
   padding-bottom: 140% !important;
 }
 
