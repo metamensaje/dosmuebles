@@ -497,11 +497,11 @@ body.template-category .js-footer {
   gap: 30px;
 }
 #product_form .js-product-variants + .row .col-4 {
-  padding: 0!important;
+  padding: 0 !important;
   max-width: 100%;
 }
 #product_form .js-product-variants + .row .col-4::before {
-  content: 'Cantidad';
+  content: "Cantidad";
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: var(--letter-spacing-wide);
@@ -510,7 +510,7 @@ body.template-category .js-footer {
   display: block;
 }
 #product_form .js-product-variants + .row .col-8 {
-  padding: 0!important;
+  padding: 0 !important;
   max-width: 100%;
 }
 
@@ -600,15 +600,17 @@ body.template-category .js-footer {
   margin-bottom: 16px;
 }
 
-.modal-header, .modal-body, .modal-footer {
-  background-color: unset!important;
+.modal-header,
+.modal-body,
+.modal-footer {
+  background-color: unset !important;
 }
 
 #modal-cart .cart-row * {
-  font-family: 'Arimo';
+  font-family: "Arimo";
 }
 
-#modal-cart .js-visible-on-cart-filled .text-center:last-child .btn-link{
+#modal-cart .js-visible-on-cart-filled .text-center:last-child .btn-link {
   margin-top: 1.5rem;
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-wide);
@@ -617,10 +619,9 @@ body.template-category .js-footer {
   display: inline-block;
 }
 
-
 @media (min-width: 768px) {
   #nav-filters .modal-header .pl-md-5,
-  #modal-cart .modal-header .pl-5  {
+  #modal-cart .modal-header .pl-5 {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 600;
@@ -659,7 +660,7 @@ body.template-category .js-footer {
 }
 
 .template-contact .contact-page .container > .row > .col-md-6 > .text-center {
-  text-align: left!important;
+  text-align: left !important;
 }
 
 .template-contact .list {
@@ -683,14 +684,24 @@ body.template-category .js-footer {
   font-size: 12px;
 }
 
-.template-contact .contact-page .container > .row > .col-md-6:has(.row) > div:first-child {
+.template-contact
+  .contact-page
+  .container
+  > .row
+  > .col-md-6:has(.row)
+  > div:first-child {
   display: none;
 }
 
-.template-contact .contact-page .container > .row > .col-md-6:has(.row) .align-items-center {
+.template-contact
+  .contact-page
+  .container
+  > .row
+  > .col-md-6:has(.row)
+  .align-items-center {
   display: flex;
   height: min-content;
-  border: 1px solid #BCB9B5;
+  border: 1px solid #bcb9b5;
   align-content: flex-start;
   justify-content: flex-start !important;
   padding: 1rem 0;
