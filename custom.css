@@ -612,11 +612,11 @@ body.template-category .js-footer {
     text-align: left;
     padding-left: 0 !important;
   }
-  #nav-filters .modal-left {
+  #nav-filters.modal-left {
     right: -100%;
     left: unset;
   }
-  #nav-filters .modal-left.modal-show {
+  #nav-filters.modal-left.modal-show {
     left: unset;
     right: 0;
   }
