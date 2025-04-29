@@ -313,3 +313,22 @@ body.template-category .item-name {
 body.template-category .item-description {
   padding: 40px 0 60px;
 }
+
+
+/* product */
+
+#single-product {
+  padding-top: 0 !important;
+  border-top: 1px solid #E0DBD8;
+}
+
+#single-product > .container {
+    max-width: unset;
+    padding-left: 0;
+    padding-top: 0 !important;
+}
+
+#single-product > .container .row > .col[data-store] {
+    padding-left: 2.5rem !important;
+    padding-right: 2.5rem !important;
+}
