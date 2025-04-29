@@ -666,3 +666,17 @@ body.template-category .js-footer {
   letter-spacing: 0.05em;
   font-size: 12px;
 }
+
+
+.template-account-login .breadcrumbs {
+  display: none !important;
+}
+
+.template-account-login .page-header {
+  padding: 2rem 0 !important;
+}
+
+.template-account-login .contact-page {
+  border-top: var(--border-standard);
+  padding-top: 4rem;
+}
