@@ -599,13 +599,12 @@ body.template-category .js-footer {
   gap: 6rem;
 }
 
-.template-contact .contact-page .container > .row > .col-md-6 .mt-2.mb-4.text-center {
+.template-contact .contact-page .container > .row > .col-md-6 > .text-center {
   text-align: left!important;
 }
 
 .template-contact .list {
   text-align: left;
-  border-top: var(--border-standard);
   border-bottom: var(--border-standard);
 }
 
