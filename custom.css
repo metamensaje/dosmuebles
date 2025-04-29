@@ -356,7 +356,6 @@ a.js-institutional-message-button.btn-link {
 
 /* Category Page */
 body.template-category > .container {
-  border-top: var(--border-standard);
   border-bottom: var(--border-standard);
   max-width: unset;
   margin-bottom: 28px;
@@ -502,3 +501,9 @@ body.template-category .item-description {
     padding-bottom: 6rem !important;
   }
 }
+
+
+.template-page .breadcrumbs {
+  display: none !important;
+}
+
