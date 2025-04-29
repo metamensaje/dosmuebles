@@ -371,3 +371,14 @@ body.template-category .item-description {
 #single-product > .container .row > .col-md-7.pb-3.pr-md-2 .col.px-3{
   padding-left: 4px !important;
 }
+
+
+#related-products .products-section-container .item-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.label.label-default {
+    letter-spacing: 0!important;
+    font-size: 12px!important;
+}
