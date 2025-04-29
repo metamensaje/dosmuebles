@@ -513,3 +513,19 @@ body.template-category .item-description {
 #related-products .products-section-slider-controls-container {
   display: none;
 }
+
+/* button */
+
+.btn-primary {
+  background-color: #2E2E2E;
+  color: #F1ECE5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  color: #2E2E2E;
+  opacity: 1;
+  border: 1px solid #2E2E2E;
+  background-color: #F1ECE5;
+}
