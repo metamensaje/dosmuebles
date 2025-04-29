@@ -13,6 +13,14 @@
     text-underline-offset: 0.4rem;
 }
 
+/* Header */
+
+@media (min-width: 768px) {
+    .head-main {
+        padding: 32px 0 24px!important;
+    }
+}
+
 /* Overlay */
 
 .js-banners-news .js-banner-container.container-fluid::after {
