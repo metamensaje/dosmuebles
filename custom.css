@@ -292,3 +292,10 @@ body.template-category > .container .page-header {
 body.template-category > .container .page-header .breadcrumbs {
   display: none;
 }
+
+.btn-link[data-component="filter-button"] {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: .75rem;
+    text-underline-offset: 4px;
+}
