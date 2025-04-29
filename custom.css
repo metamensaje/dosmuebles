@@ -209,7 +209,7 @@ a.js-institutional-message-button.btn-link {
 .section-featured-home,
 .section-products-related,
 .section-banners-home {
-  padding: var(--spacing-section) 0 0 !important;
+  padding: var(--spacing-section) 0!important;
 }
 
 .js-products-featured-title,
