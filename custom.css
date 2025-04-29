@@ -158,7 +158,7 @@ a.js-institutional-message-button.btn-link {
   aspect-ratio: 1 / 1;
 }
 
-.js-banner .js-textbanner .textbanner-text.over-image .js-banner-title {
+.section-banners-home[data-store="home-banner-categories"] .js-banner .js-textbanner .textbanner-text.over-image .js-banner-title {
   color: #F1ECE5;
   font-size: 16px;
   font-family: var(--body-font);
