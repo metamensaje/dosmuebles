@@ -146,6 +146,12 @@ section.section-featured-home::after {
     aspect-ratio: 1 / 1;
 }
 
+.js-banner .js-textbanner .textbanner-text.over-image .js-banner-title {
+    color: #F1ECE5;
+    font-size: 16px;
+    font-family: var(--body-font);
+}
+
 /* First Row */
 .js-home-sections-container .section-banners-home {
   padding: 0!important;
