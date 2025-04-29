@@ -477,4 +477,15 @@ body.template-category .item-description {
   text-align: center;
 }
 
-.template-page .
+.template-page .user-content > .container > .row > .col-md-8 {
+    max-width: 100%;
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+  .about-2-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--spacing-sm);
+  }
+}
