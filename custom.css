@@ -291,6 +291,10 @@ body.template-category > .container .page-header {
   padding: 0 0 48px !important;
 }
 
+body.template-category > .container .mt-2.mb-4.text-center {
+  margin: 0 0 64px !important;
+}
+
 body.template-category > .container .page-header .breadcrumbs {
   display: none;
 }
