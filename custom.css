@@ -1,3 +1,8 @@
+/* Variable Override */
+:root {
+    --heading-font: "Gilda Display", serif;
+}
+
 /* Banner */
 
 .textbanner-text.over-image.over-image-invert .btn-link, .textbanner-text.over-image.over-image-invert .search-suggestions .search-suggestions-all-link, .search-suggestions .textbanner-text.over-image.over-image-invert .search-suggestions-all-link {
@@ -119,6 +124,7 @@ section.section-institutional-home::after {
     color: #2E2E2E;
     font-size: 24px;
     letter-spacing: 0;
+    margin-bottom: 72px !important;
 }
 
 .section-featured-home .js-item-product .js-item-info-container .js-item-with-secondary-image .js-item-image-padding {
@@ -128,3 +134,7 @@ section.section-institutional-home::after {
 .section-featured-home .js-item-product .js-item-info-container .js-item-with-secondary-image .js-item-image-padding img {
     width: 100%;
 }
+@media (min-width: 768px) {
+    .section-featured-home .item-description {
+        padding: 40px 0;
+    }
