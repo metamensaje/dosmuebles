@@ -464,10 +464,6 @@ body.template-category .item-description {
   font-size: 10px;
 }
 
-.template-product section#related-products {
-/*   padding-top: 0 !important; */
-}
-
 /* about */
 
 .template-page .page-header {
@@ -505,14 +501,20 @@ body.template-category .item-description {
   display: none !important;
 }
 
+#related-products .item-name {
+  padding: 20px 0 40px;
+  font-size: 14px !important;
+}
 
-#related-products .user-content {
-  padding: 0 0 48px;
+#related-products .products-section-title {
+  padding-bottom: 48px;
 }
 
 #related-products .products-section-slider-controls-container {
   display: none;
 }
+
+
 
 /* button */
 
