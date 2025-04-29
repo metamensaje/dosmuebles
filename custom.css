@@ -667,6 +667,19 @@ body.template-category .js-footer {
   font-size: 12px;
 }
 
+.template-contact .contact-page .container > .row > .col-md-6:has(.row) > div:first-child {
+  display: none;
+}
+
+.template-contact .contact-page .container > .row > .col-md-6:has(.row) .align-items-center {
+  display: flex;
+  height: min-content;
+  border: 1px solid #BCB9B5;
+  align-content: flex-start;
+  padding: 1rem 0;
+}
+
+/* account */
 
 .template-account-login .breadcrumbs {
   display: none !important;
@@ -676,7 +689,7 @@ body.template-category .js-footer {
   padding: 2rem 0 !important;
 }
 
-.template-account-login .contact-page {
+.template-account-login .account-page {
   border-top: var(--border-standard);
   padding-top: 4rem;
 }
