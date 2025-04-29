@@ -392,7 +392,6 @@ body.template-category .item-description {
 /* Product Page */
 #single-product {
   padding-top: 0 !important;
-  border-top: var(--border-standard);
 }
 
 #single-product > .container {
@@ -502,7 +501,15 @@ body.template-category .item-description {
   }
 }
 
-
 .template-page .breadcrumbs {
   display: none !important;
+}
+
+
+#related-products .user-content {
+  padding: 0 0 48px;
+}
+
+#related-products .products-section-slider-controls-container {
+  display: none;
 }
