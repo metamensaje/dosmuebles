@@ -107,3 +107,15 @@ section.section-institutional-home::after {
   font-size: 0.75rem;
 }
 
+/* Featured */
+
+.section-featured-home {
+  padding: 64px 0;
+}
+
+.js-products-featured-title {
+    font-family: "Gilda Display";
+    color: #2E2E2E;
+    font-size: 24px;
+    letter-spacing: 0;
+}
