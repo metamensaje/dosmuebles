@@ -606,8 +606,24 @@ body.template-category .js-footer {
   background-color: unset !important;
 }
 
+
 #modal-cart .cart-row * {
   font-family: "Arimo";
+}
+#modal-cart .cart-row .font-big {
+  font-size: 16px !important;
+}
+#modal-cart .cart-row .font-huge {
+  font-size: 20px !important;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem !important;
+}
+#modal-cart .modal-header{
+  border-bottom: var(--border-standard);
+}
+#modal-cart .js-cart-item {
+  border-bottom: var(--border-standard);
+  padding-bottom: 1.5rem;
 }
 
 #modal-cart .js-visible-on-cart-filled .text-center:last-child .btn-link {
