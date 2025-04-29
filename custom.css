@@ -168,3 +168,24 @@ a.js-institutional-message-button.btn-link {
 .section-banners-home[data-store="home-banner-news"] {
     padding: 0 !important;
 }
+
+/* Image with text */
+.section-modules-home {
+    padding: 80px 0;
+    background: #DDDAD3;
+}
+
+.section-modules-home .js-textbanner {
+  padding-bottom: 0 !important;
+  margin: 0 !important;
+}
+
+.section-modules-home .js-textbanner .js-textbanner-image-container {
+  padding-bottom: 50% !important;
+  padding-top: 0 !important;
+}
+
+.section-modules-home .js-textbanner .js-textbanner-text {
+  order: -1;
+  padding-right: 6rem !important;
+}
