@@ -33,10 +33,6 @@
   opacity: 0.5;
 }
 
-.js-home-sections-container .section-banners-home {
-  padding: 0!important;
-}
-
 /* Title */
 .js-banners-news .js-banner-title {
   font-family: "Gilda Display";
@@ -136,7 +132,7 @@ section.section-featured-home::after {
 
 @media (min-width: 768px) {
   .section-featured-home .item-description {
-    padding: 40px 0;
+    padding: 40px 0 20px;
   }
 }
 
@@ -150,3 +146,7 @@ section.section-featured-home::after {
     aspect-ratio: 1 / 1;
 }
 
+/* First Row */
+.js-home-sections-container .section-banners-home {
+  padding: 0!important;
+}
