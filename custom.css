@@ -373,9 +373,9 @@ body.template-category .item-description {
   padding-left: 4px !important;
   padding-bottom: 135% !important;
 }
-#related-products .products-section-container .item-image img {
-  width: 100%;
-  object-fit: cover;
+#single-product .swiper-wrapper {
+    flex-direction: column;
+    gap: 12px;
 }
 .label.label-default {
   letter-spacing: 0 !important;
@@ -406,6 +406,15 @@ body.template-category .item-description {
   object-fit: cover;
   width: 100%;
 }
+
 .social-share-button {
   display: none;
+}
+
+section#related-products {
+    padding-top: 0 !important;
+}
+#related-products .products-section-container .item-image img {
+  width: 100%;
+  object-fit: cover;
 }
