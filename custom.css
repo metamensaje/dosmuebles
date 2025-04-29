@@ -583,6 +583,11 @@ body.template-category .js-footer {
 }
 
 /* modal */
+#nav-filter .btn-default {
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+  font-size: 10px;
+}
 #nav-filters .font-weight-bold {
   letter-spacing: 0.05em;
   text-transform: uppercase;
