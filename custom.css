@@ -284,10 +284,11 @@ body.template-category > .container {
   border-bottom: 1px solid #E0DBD8;
   max-width: unset;
   margin-bottom: 28px;
+  padding: 60px 0 !important;
 }
 
 body.template-category > .container .page-header {
-  padding: 60px 0 !important;
+  padding: 0 0 48px !important;
 }
 
 body.template-category > .container .page-header .breadcrumbs {
