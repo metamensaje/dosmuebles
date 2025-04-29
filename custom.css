@@ -89,6 +89,7 @@ a.js-institutional-message-button.btn-link {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  padding: 20px 0 0;
 }
 
 .desktop-list-subitems {
@@ -109,6 +110,7 @@ a.js-institutional-message-button.btn-link {
 
 .desktop-list-subitems .nav-item {
   border: 1px solid #E0DBD8;
+  border-bottom: 0;
 }
 
 .desktop-list-subitems .nav-item .nav-list-link {
