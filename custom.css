@@ -189,3 +189,38 @@ a.js-institutional-message-button.btn-link {
   order: -1;
   padding-right: 6rem !important;
 }
+
+/* Footer Icons */
+.section-informative-banners .container {
+  max-width: none;
+}
+
+.section-informative-banners .js-informative-banners .swiper-wrapper {
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.section-informative-banners .js-informative-banners .swiper-slide {
+  margin-right: 30px;
+}
+
+.section-informative-banners .js-informative-banners .swiper-slide:first-child {
+  border: 1px solid #E0DBD8;
+  padding: 1.3rem 0 1.2rem !important;
+}
+
+.section-informative-banners .js-informative-banners .swiper-slide:first-child .d-inline-block.icon-60px {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0.75rem !important;
+}
+
+.section-informative-banners .js-informative-banners .swiper-slide:first-child h3 {
+  font-size: .75rem;
+  font-family: var(--body-font);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+
+.section-informative-banners .js-informative-banners .swiper-slide.mr-md-0 {
+  margin-right: 30px;
+}
