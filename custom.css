@@ -1,16 +1,6 @@
-/* Variable Override */
+/* Variable and Base Styles */
 :root {
   --heading-font: "Gilda Display", serif;
-}
-
-/* Banner */
-.textbanner-text.over-image.over-image-invert .btn-link,
-.textbanner-text.over-image.over-image-invert .search-suggestions .search-suggestions-all-link {
-  color: var(--main-background);
-  letter-spacing: .05em;
-  text-transform: uppercase;
-  font-size: .75rem;
-  text-underline-offset: 0.4rem;
 }
 
 /* Header */
@@ -18,10 +8,14 @@
   .head-main {
     padding: 32px 0 24px !important;
   }
+  .section-featured-home .item-description {
+    padding: 40px 0 20px;
+  }
 }
 
-/* Overlay */
-.js-banners-news .js-banner-container.container-fluid::after, .js-banner .js-textbanner .js-textbanner-image-container::after {
+/* Banner & Overlay */
+.js-banners-news .js-banner-container.container-fluid::after, 
+.js-banner .js-textbanner .js-textbanner-image-container::after {
   content: "";
   position: absolute;
   top: 0;
@@ -33,7 +27,6 @@
   opacity: 0.5;
 }
 
-/* Title */
 .js-banners-news .js-banner-title {
   font-family: "Gilda Display";
   color: #f1ece5;
@@ -41,7 +34,16 @@
   letter-spacing: 0;
 }
 
-/* Message */
+.textbanner-text.over-image.over-image-invert .btn-link,
+.textbanner-text.over-image.over-image-invert .search-suggestions .search-suggestions-all-link {
+  color: var(--main-background);
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-size: .75rem;
+  text-underline-offset: 0.4rem;
+}
+
+/* Institutional Sections */
 .section-institutional-home {
   padding: 80px 0;
   position: relative;
@@ -49,17 +51,6 @@
 
 .section-institutional-home .js-institutional-message-title {
   text-wrap: balance;
-}
-
-a.js-institutional-message-button.btn-link {
-  padding: 1.2rem 1.8rem;
-  border: 1px solid;
-  margin-top: 2rem;
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 0.75rem;
-  letter-spacing: .05em;
 }
 
 section.section-institutional-home::after,
@@ -72,16 +63,23 @@ section.section-featured-home::after {
   bottom: 0;
 }
 
-/* WhatsApp */
+/* Buttons */
+a.js-institutional-message-button.btn-link {
+  padding: 1.2rem 1.8rem;
+  border: 1px solid;
+  margin-top: 2rem;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.75rem;
+  letter-spacing: .05em;
+}
+
 .btn-whatsapp {
   background-color: #2e2e2e;
 }
 
-/* Menu & Submenu */
-.desktop-list-subitems .nav-item .list-subitems {
-  display: none;
-}
-
+/* Navigation */
 .nav-desktop-list > .nav-item {
   position: relative;
 }
@@ -98,6 +96,10 @@ section.section-featured-home::after {
   flex-direction: column;
 }
 
+.desktop-list-subitems .nav-item .list-subitems {
+  display: none;
+}
+
 .nav-list-link {
   position: relative;
   text-transform: uppercase;
@@ -109,12 +111,15 @@ section.section-featured-home::after {
   font-size: 0.75rem;
 }
 
-/* Featured */
-.section-featured-home, .section-products-related, .section-banners-home {
+/* Featured Sections */
+.section-featured-home, 
+.section-products-related, 
+.section-banners-home {
   padding: 64px 0 !important;
 }
 
-.js-products-featured-title, .js-banners-section-title {
+.js-products-featured-title, 
+.js-banners-section-title {
   font-family: "Gilda Display";
   color: #2E2E2E;
   font-size: 24px;
@@ -130,29 +135,22 @@ section.section-featured-home::after {
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  .section-featured-home .item-description {
-    padding: 40px 0 20px;
-  }
-}
-
 /* Category */
-
 .js-banner .js-textbanner {
   margin-bottom: 30px;
 }
 
 .js-banner .js-textbanner .js-textbanner-image-container .js-textbanner-image {
-    aspect-ratio: 1 / 1;
+  aspect-ratio: 1 / 1;
 }
 
 .js-banner .js-textbanner .textbanner-text.over-image .js-banner-title {
-    color: #F1ECE5;
-    font-size: 16px;
-    font-family: var(--body-font);
+  color: #F1ECE5;
+  font-size: 16px;
+  font-family: var(--body-font);
 }
 
 /* First Row */
 .js-home-sections-container .section-banners-home {
-  padding: 0!important;
+  padding: 0 !important;
 }
