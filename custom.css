@@ -203,18 +203,18 @@ a.js-institutional-message-button.btn-link {
   margin-right: 30px;
 }
 
-.section-informative-banners .js-informative-banners .swiper-slide:first-child {
+.section-informative-banners .js-informative-banners .swiper-slide {
   border: 1px solid #E0DBD8;
   padding: 1.3rem 0 1.2rem !important;
 }
 
-.section-informative-banners .js-informative-banners .swiper-slide:first-child .d-inline-block.icon-60px {
+.section-informative-banners .js-informative-banners .swiper-slide .d-inline-block.icon-60px {
   width: 24px;
   height: 24px;
   margin-bottom: 0.75rem !important;
 }
 
-.section-informative-banners .js-informative-banners .swiper-slide:first-child h3 {
+.section-informative-banners .js-informative-banners .swiper-slide h3 {
   font-size: .75rem;
   font-family: var(--body-font);
   text-transform: uppercase;
@@ -223,4 +223,27 @@ a.js-institutional-message-button.btn-link {
 
 .section-informative-banners .js-informative-banners .swiper-slide.mr-md-0 {
   margin-right: 30px;
+}
+
+/* Footer */
+.js-footer .mb-4.pb-2 img.footer-logo-img {
+  max-height: 120px;
+}
+
+.js-footer .mb-4:nth-of-type(2) {
+  display: none;
+}
+
+.js-footer .my-2 {
+  display: none;
+}
+
+.js-footer .d-inline-block.mr-md-2.font-smallest {
+  font-size: .75rem !important;
+  color: #7F7C76;
+}
+
+.js-footer .claim-link.d-md-inline-block.mt-md-0.mt-3.font-smallest {
+  font-size: .75rem !important;
+  color: #7F7C76;
 }
