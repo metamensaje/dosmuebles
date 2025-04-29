@@ -381,6 +381,9 @@ body.template-category .item-description {
   letter-spacing: 0 !important;
   font-size: 12px !important;
 }
+.js-product-name {
+    margin: 20px 0 !important;
+}
 .js-product-variants {
   flex-direction: column;
 }
