@@ -583,10 +583,21 @@ body.template-category .js-footer {
 }
 
 /* modal */
+#nav-filters .font-weight-bold {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 10px !important;
+  margin-top: 1.5rem !important;
+}
+
+#nav-filters .checkbox-container .checkbox,
+#nav-filters .radio-button-container .radio-button-item {
+  margin-bottom: 16px;
+}
 
 @media (min-width: 768px) {
   #nav-filters .modal-header {
-    background-color: none;
+    background-color: unset;
   }
   #nav-filters .modal-header .pl-md-5 {
     text-transform: uppercase;
