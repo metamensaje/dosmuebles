@@ -621,6 +621,10 @@ body.template-category .js-footer {
 #modal-cart .modal-header{
   border-bottom: var(--border-standard);
 }
+#modal-cart .font-small.mb-1 {
+  font-size: 14px !important;
+  margin-bottom: 0.5rem !important;
+}
 #modal-cart .js-cart-item {
   border-bottom: var(--border-standard);
   padding-bottom: 1.5rem;
