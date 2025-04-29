@@ -498,4 +498,7 @@ body.template-category .item-description {
       grid-template-columns: 1fr 1fr;
       gap: var(--spacing-sm);
   }
+  .template-page .user-content {
+    padding-bottom: 6rem !important;
+  }
 }
