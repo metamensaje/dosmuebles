@@ -275,3 +275,20 @@ a.js-institutional-message-button.btn-link {
   font-size: .75rem !important;
   color: #7F7C76 !important;
 }
+
+/* Category */
+
+body.template-category > .container {
+  border-top: 1px solid #E0DBD8;
+  border-bottom: 1px solid #E0DBD8;
+  max-width: unset;
+  margin-bottom: 28px;
+}
+
+body.template-category > .container .page-header {
+  padding: 60px 0 !important;
+}
+
+body.template-category > .container .page-header .breadcrumbs {
+  display: none;
+}
