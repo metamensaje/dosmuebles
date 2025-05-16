@@ -466,6 +466,7 @@ body.template-category .js-footer {
 .template-product .breadcrumbs {
   display: flex;
   align-items: center;
+  padding-top: 2rem;
 }
 
 #single-product {
