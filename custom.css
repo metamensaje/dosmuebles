@@ -186,7 +186,13 @@ a.js-institutional-message-button.btn-link {
     height: 60px;
     padding-left: 22px;
   }
-  
+  .form-group .form-select-icon {
+    position: absolute;
+    right: 22px;
+    bottom: 18px;
+    font-size: 14px;
+    pointer-events: none;
+  }  
 }
 
 /* Navigation */
