@@ -215,6 +215,7 @@ a.js-institutional-message-button.btn-link {
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-wide);
   font-size: var(--font-size-xs);
+  font-weight: 400;
 }
 
 .desktop-list-subitems .nav-item {
