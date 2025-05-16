@@ -126,6 +126,7 @@
   text-transform: uppercase;
   font-size: var(--font-size-xs);
   text-underline-offset: var(--text-underline-offset);
+  border-color: #BCB9B5;
 }
 
 /* Institutional Sections */
