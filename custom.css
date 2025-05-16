@@ -309,7 +309,14 @@ a.js-institutional-message-button.btn-link {
 }
 
 .section-modules-home .js-textbanner .btn-link {
-  composes: btn-standard;
+    padding: 1.2rem 1.8rem;
+    border: 1px solid;
+    margin-top: var(--spacing-md);
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: var(--font-size-xs);
+    letter-spacing: var(--letter-spacing-wide);
 }
 
 /* Footer Icons */
