@@ -739,7 +739,7 @@ body.template-category .js-footer {
   display: none !important;
 }
 .template-contact .page-header {
-  padding: 2rem 0 !important;
+  padding: 2.5rem 0 !important;
 }
 .template-contact .contact-page {
   border-top: var(--border-standard);
@@ -764,7 +764,7 @@ body.template-category .js-footer {
 
 .template-contact .list li.mb-3 {
   border-top: var(--border-standard);
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   margin-bottom: 0 !important;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -808,7 +808,7 @@ body.template-category .js-footer {
 }
 
 .template-account-login .page-header {
-  padding: 2rem 0 !important;
+  padding: 2.5rem 0 !important;
 }
 
 .template-account-login .account-page {
@@ -819,7 +819,7 @@ body.template-category .js-footer {
 
 /* search */
 .template-search .page-header {
-  padding: 2rem 0 !important;
+  padding: 2.5rem 0 !important;
 }
 
 .template-search .category-body {
