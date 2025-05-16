@@ -184,7 +184,9 @@ a.js-institutional-message-button.btn-link {
 @media (min-width: 768px) {
   .form-control, .form-select, .form-quantity {
     height: 60px;
+    padding-left: 22px;
   }
+  
 }
 
 /* Navigation */
