@@ -181,6 +181,12 @@ a.js-institutional-message-button.btn-link {
   background-color: var(--color-primary);
 }
 
+@media (min-width: 768px) {
+  .form-control, .form-select, .form-quantity {
+    height: 60px;
+  }
+}
+
 /* Navigation */
 .nav-desktop-list {
   padding: 25px 0 20px;
