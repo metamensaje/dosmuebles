@@ -193,6 +193,9 @@ a.js-institutional-message-button.btn-link {
     font-size: 14px;
     pointer-events: none;
   }  
+    .form-row.m-0.align-items-center {
+      padding: 0 10px;
+  }
 }
 
 /* Navigation */
@@ -625,6 +628,7 @@ body.template-category .js-footer {
   color: #f1ece5;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  height: 60px;
 }
 
 .btn-primary:hover,
