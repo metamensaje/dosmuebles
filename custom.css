@@ -334,13 +334,16 @@ a.js-institutional-message-button.btn-link {
 }
 
 @media screen and (max-width: 575px) {
-    .section-banners-home[data-store="home-banner-categories"] .js-banner {
-        padding: 0;
-    }
     .section-banners-home[data-store="home-banner-categories"] .js-banner-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 15px;
+    }
+    .section-banners-home[data-store="home-banner-categories"] .js-banner {
+        padding: 0;
+    }
+    .section-banners-home[data-store="home-banner-categories"] .js-banner .js-textbanner {
+        margin-bottom: 0;
     }
 }
 
