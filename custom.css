@@ -133,6 +133,15 @@
   letter-spacing: 0;
 }
 
+@media screen and (max-width: 575px) {
+  .section-banners-home[data-store="home-banner-news"] .textbanner-image {
+    padding-top: 150%;
+  }
+  .js-banners-news .js-banner-title {
+    font-size: var(--font-size-xl);
+  }
+}
+
 .textbanner-text.over-image.over-image-invert .btn-link,
 .textbanner-text.over-image.over-image-invert
   .search-suggestions
