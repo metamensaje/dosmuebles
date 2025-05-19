@@ -354,7 +354,7 @@ a.js-institutional-message-button.btn-link {
 
 /* Image with text */
 .section-modules-home {
-    padding: var(--spacing-section-large) 0;
+    padding: 40px 0;
     background: var(--color-background-alt);
 }
 
@@ -363,20 +363,33 @@ a.js-institutional-message-button.btn-link {
     margin: 0 !important;
 }
 
+.section-modules-home .js-textbanner .js-textbanner-image-container {
+    padding-top: 100% !important;
+}
+
 @media screen and (min-width: 576px) {
+    .section-modules-home {
+        padding: var(--spacing-section-large) 0;
+    }
     .section-modules-home .js-textbanner .js-textbanner-text {
         order: -1;
         padding-right: 6rem !important;
     }
     .section-modules-home .js-textbanner .js-textbanner-image-container {
-        padding-bottom: 50% !important;
-        padding-top: 0 !important;
+        padding-top: 50% !important;
     }
 }
 
 .section-modules-home .js-textbanner .js-banner-title {
     font-size: var(--font-size-lg);
     margin-bottom: 1.5rem !important;
+}
+
+@media screen and (max-width: 575px) {
+    .section-modules-home .js-textbanner .js-banner-title {
+        margin-top: var(--spacing-lg);
+        margin-bottom: var(--spacing-xl) !important;
+    }
 }
 
 .section-modules-home .js-textbanner .textbanner-paragraph {
