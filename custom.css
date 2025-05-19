@@ -333,6 +333,17 @@ a.js-institutional-message-button.btn-link {
     font-family: var(--body-font);
 }
 
+@media screen and (max-width: 575px) {
+    .section-banners-home[data-store="home-banner-categories"] .container {
+        width: 100%;
+    }
+    .section-banners-home[data-store="home-banner-categories"] .js-banner-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
+
 /* First Row */
 .section-banners-home[data-store="home-banner-news"] {
     padding: 0 !important;
