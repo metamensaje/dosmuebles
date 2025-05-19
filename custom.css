@@ -492,6 +492,10 @@ body.template-category .js-footer {
     pointer-events: none;
   }
 
+  #single-product .swiper-slide {
+    pointer-events: none;
+  }
+
   #single-product .swiper-product-thumb + div {
     display: none !important;
   }
@@ -834,6 +838,10 @@ body.template-category .js-footer {
   border-top: var(--border-standard);
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+body.template-category .item-description {
+  padding: 40px 0 60px;
 }
 
 body:not(.template-home) .js-footer {
