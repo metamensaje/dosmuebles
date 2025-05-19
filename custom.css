@@ -547,7 +547,7 @@ body.template-category .js-footer {
 
 @media screen and (max-width: 575px) {
     .item-description {
-        padding: 24px 0 32px;
+        padding: 24px 0 32px !important;
     }
 }
 
