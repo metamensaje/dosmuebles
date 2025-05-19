@@ -549,6 +549,9 @@ body.template-category .js-footer {
     .item-description {
         padding: 24px 0 32px !important;
     }
+    .category-controls {
+        position: static !important;
+    }
 }
 
 /* Product Page */
