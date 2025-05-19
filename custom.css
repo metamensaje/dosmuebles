@@ -274,12 +274,24 @@ a.js-institutional-message-button.btn-link {
     color: var(--color-primary);
     font-size: var(--font-size-lg);
     letter-spacing: 0;
-    margin-bottom: 72px !important;
+}
+
+@media screen and (min-width: 576px) {
+    .js-products-featured-title,
+    .js-banners-section-title {
+        margin-bottom: 72px !important;
+    }
 }
 
 @media screen and (max-width: 575px) {
     .js-products-featured-title.section-title {
         display: none;
+    }
+    
+    .section-featured-home,
+    .section-products-related,
+    .section-banners-home {
+        padding: 40px 0 !important;
     }
 }
 
