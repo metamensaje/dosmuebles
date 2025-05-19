@@ -505,6 +505,12 @@ body.template-category .js-footer {
     padding-top: 60px;
 }
 
+@media screen and (max-width: 575px) {
+    .item-description {
+        padding: 24px 0 32px;
+    }
+}
+
 /* Product Page */
 
 .template-product .breadcrumbs {
