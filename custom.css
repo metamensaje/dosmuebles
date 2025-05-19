@@ -313,6 +313,16 @@ a.js-institutional-message-button.btn-link {
         padding-left: 4px !important;
     }
 }
+@media screen and (max-width: 576px) {
+    #single-product .js-product-name {
+        margin: 20px 0 !important;
+        text-align: left;
+        font-size: var(--font-size-lg);
+    }
+    #single-product .price-container * {
+        text-align: left;
+    }
+}
 
 
 .section-featured-home .js-item-product .js-item-info-container .js-item-image-padding img,
