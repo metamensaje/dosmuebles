@@ -824,6 +824,12 @@ body.template-category .js-footer {
   padding: 2.5rem 0 !important;
 }
 
+.template-search .h5.pb-2.font-weight-normal {
+    font-family: var(--body-font);
+    font-size: .9em;
+    color: var(--color-primary);
+}
+
 .template-search .category-body {
   border-top: var(--border-standard);
   padding-top: 4rem;
