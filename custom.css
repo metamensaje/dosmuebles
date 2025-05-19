@@ -334,8 +334,8 @@ a.js-institutional-message-button.btn-link {
 }
 
 @media screen and (max-width: 575px) {
-    .section-banners-home[data-store="home-banner-categories"] .container {
-        width: 100%;
+    .section-banners-home[data-store="home-banner-categories"] .js-banner {
+        padding: 0;
     }
     .section-banners-home[data-store="home-banner-categories"] .js-banner-row {
         display: grid;
