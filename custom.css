@@ -362,6 +362,7 @@ a.js-institutional-message-button.btn-link {
     text-decoration: none;
     font-size: var(--font-size-xs);
     letter-spacing: var(--letter-spacing-wide);
+    border-color: #BCB9B5;
 }
 
 /* Footer Icons */
