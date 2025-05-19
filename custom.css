@@ -277,6 +277,12 @@ a.js-institutional-message-button.btn-link {
     margin-bottom: 72px !important;
 }
 
+@media screen and (max-width: 575px) {
+    .js-products-featured-title.section-title {
+        display: none;
+    }
+}
+
 /* Product Image Aspect Ratio */
 .section-featured-home .js-item-product .js-item-info-container .js-item-image-padding,
 .category-body .js-item-product .js-item-info-container .js-item-image-padding,
