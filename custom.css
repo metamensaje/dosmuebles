@@ -305,8 +305,10 @@ a.js-institutional-message-button.btn-link {
 }
 
 /* Special case for product page */
-#single-product>.container .row>.col-md-7.pb-3.pr-md-2 .col.px-3 {
-    padding-left: 4px !important;
+@media screen and (min-width: 576px) {
+    #single-product>.container .row>.col-md-7.pb-3.pr-md-2 .col.px-3 {
+        padding-left: 4px !important;
+    }
 }
 
 .section-featured-home .js-item-product .js-item-info-container .js-item-image-padding img,
