@@ -349,6 +349,10 @@ a.js-institutional-message-button.btn-link {
   text-wrap: balance;
 }
 
+.section-modules-home .js-textbanner .textbanner-link:hover {
+  color: var(--color-primary);
+}
+
 .section-modules-home .js-textbanner .btn-link {
     padding: 1.2rem 1.8rem;
     border: 1px solid;
