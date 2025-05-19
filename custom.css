@@ -417,7 +417,10 @@ a.js-institutional-message-button.btn-link {
 }
 
 @media screen and (max-width: 575px) {
-
+    .section-informative-banners .container {
+        padding: 0;
+    }
+    
     .section-informative-banners .js-informative-banners .swiper-slide.swiper-slide-duplicate,
     .section-informative-banners .js-informative-banners+div.text-center {
         display: none !important;
@@ -428,6 +431,13 @@ a.js-institutional-message-button.btn-link {
         transform: none !important;
         width: 100%;
         height: auto;
+    }
+    .section-informative-banners .js-informative-banners .swiper-slide {
+        width: 100%!important;
+        border-bottom: var(--border-standard);
+    }
+    .section-informative-banners .js-informative-banners .swiper-slide.mr-md-0 {
+        border-bottom: 0;
     }
 }
 
