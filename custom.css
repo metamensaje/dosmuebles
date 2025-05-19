@@ -185,6 +185,7 @@ a.js-institutional-message-button.btn-link {
   .form-control, .form-select, .form-quantity {
     height: 60px;
     padding-left: 22px;
+    padding-right: 22px;
   }
   .form-group .form-select-icon {
     position: absolute;
@@ -192,9 +193,6 @@ a.js-institutional-message-button.btn-link {
     bottom: 18px;
     font-size: 14px;
     pointer-events: none;
-  }  
-    .form-row.m-0.align-items-center {
-      padding: 0 10px;
   }
 }
 
