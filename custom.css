@@ -368,9 +368,11 @@ a.js-institutional-message-button.btn-link {
     padding-top: 0 !important;
 }
 
-.section-modules-home .js-textbanner .js-textbanner-text {
-    order: -1;
-    padding-right: 6rem !important;
+@media screen and (min-width: 576px) {
+    .section-modules-home .js-textbanner .js-textbanner-text {
+        order: -1;
+        padding-right: 6rem !important;
+    }
 }
 
 .section-modules-home .js-textbanner .js-banner-title {
