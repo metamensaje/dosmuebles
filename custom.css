@@ -442,7 +442,8 @@ a.js-institutional-message-button.btn-link {
 /* Image with text */
 .section-modules-home {
     padding: 40px 0;
-    background: var(--color-background-alt);
+/*     background: var(--color-background-alt); */
+    background: #C1B7B0;
 }
 
 .section-modules-home .js-textbanner {
@@ -499,7 +500,8 @@ a.js-institutional-message-button.btn-link {
     text-decoration: none;
     font-size: var(--font-size-xs);
     letter-spacing: var(--letter-spacing-wide);
-    border-color: #bcb9b5;
+/*     border-color: #bcb9b5; */
+    border-color: var(--color-text-muted);
 }
 
 /* Footer Icons */
