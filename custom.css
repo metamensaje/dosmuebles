@@ -316,6 +316,24 @@ a.js-institutional-message-button.btn-link {
         display: block;
         border-bottom: var(--border-standard);
         text-align: center;
+        margin-bottom: 20px;
+    }
+    .nav-primary .modal-nav-hamburger .nav-list-arrow {
+        display: none;
+    }
+    .nav-primary .js-menu-panel .js-toggle-menu-back {
+        border-bottom: var(--border-standard);
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-weight: 600;
+        font-size: 10px;
+        padding: 5px 15px 20px;
+    }
+    .nav-primary .js-menu-panel .modal-back {
+        position: absolute;
+        top: -6px;
+        font-size: 12px;
     }
 }
 
