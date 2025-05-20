@@ -300,6 +300,12 @@ a.js-institutional-message-button.btn-link {
     .section-banners-home {
         padding: 40px 0 !important;
     }
+    .modal-nav-hamburger .nav-list-link {
+        font-family: var(--heading-font);
+        text-transform: initial;
+        letter-spacing: 0;
+        font-size: var(--font-big);
+        }
 }
 
 /* Product Image Aspect Ratio */
