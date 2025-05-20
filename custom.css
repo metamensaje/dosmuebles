@@ -298,8 +298,8 @@ a.js-institutional-message-button.btn-link {
 }
 
 @media screen and (max-width: 575px) {
-    .js-products-featured-title.section-title {
-        display: none;
+    .js-products-featured-title, .js-banners-section-title {
+        margin: 15px 0 40px !important;
     }
     
     .section-featured-home,
