@@ -642,6 +642,11 @@ body.template-category .js-footer {
     margin-bottom: 0.25rem !important;
 }
 
+@media screen and (max-width: 575px) {
+    #single-product .user-content * {
+        text-align: left;
+    }
+}
 
 .label.label-default {
     letter-spacing: 0 !important;
