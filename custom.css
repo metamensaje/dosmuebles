@@ -319,9 +319,6 @@ a.js-institutional-message-button.btn-link {
     #single-product>.container .row>.col-md-7.pb-3.pr-md-2 .col.px-3 {
         padding-left: 4px !important;
     }
-    .js-product-slider-placeholder + .row {
-        display: none;
-    }
 }
 
 @media screen and (max-width: 576px) {
@@ -332,6 +329,9 @@ a.js-institutional-message-button.btn-link {
     }
     #single-product .price-container * {
         text-align: left;
+    }
+    #single-product .js-product-slider-placeholder + .row {
+        display: none;
     }
 }
 
