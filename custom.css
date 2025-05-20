@@ -937,6 +937,9 @@ body.template-category .js-footer {
         text-align: left;
         padding-left: 15px;
     }
+    #modal-cart .form-row[data-component="product.quantity"] {
+        height: 50px;
+    }
 }
 
 /* contact */
