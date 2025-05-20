@@ -797,7 +797,9 @@ body.template-category .js-footer {
 }
 
 @media screen and (min-width: 576px) {
-    padding: 4rem 0 0 !important;
+    .template-page .page-header {
+        padding: 4rem 0 0 !important;
+    }
 }
 
 .template-page .page-header h1 {
