@@ -861,6 +861,7 @@ body.template-category .js-footer {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     height: 60px;
+    border-radius: 0!important;
 }
 
 .btn-primary:hover,
