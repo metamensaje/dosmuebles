@@ -974,6 +974,12 @@ body.template-category .js-footer {
     #modal-cart .form-row[data-component="product.quantity"] {
         height: 50px;
     }
+    #modal-cart .form-quantity.small {
+        height: 40px;
+    }
+    #modal-cart .form-quantity .cart-quantity-container-ios {
+        height: 40px;
+    }
 }
 
 /* contact */
