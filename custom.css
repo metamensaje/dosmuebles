@@ -386,7 +386,7 @@ a.js-institutional-message-button.btn-link {
         justify-content: center;
         gap: 4px;
     }
-    #single-product .js-swiper-product-pagination {
+    #single-product .js-swiper-product-pagination span {
         font-size: 9px;
         line-height: 13px;
     }
