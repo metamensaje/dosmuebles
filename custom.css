@@ -758,7 +758,7 @@ body.template-category .js-footer {
 
 /* about */
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 575px) {
     .template-page .page-header {
         border-top: var(--border-standard);
         border-bottom: var(--border-standard);
