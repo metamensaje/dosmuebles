@@ -759,6 +759,13 @@ body.template-category .js-footer {
 /* about */
 
 .template-page .page-header {
+        border-top: var(--border-standard);
+    border-bottom: var(--border-standard);
+    max-width: unset;
+    padding: 40px 0 !important;
+}
+
+@media screen and (min-width: 576px) {
     padding: 4rem 0 0 !important;
 }
 
