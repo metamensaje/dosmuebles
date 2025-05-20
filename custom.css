@@ -983,7 +983,7 @@ body.template-category .js-footer {
         text-align: left;
         padding-left: 15px !important;
     }
-    #modal-cart .form-row[data-component="product.quantity"] {
+    .form-row[data-component="product.quantity"] {
         height: 50px;
     }
     #modal-cart .form-quantity.small {
