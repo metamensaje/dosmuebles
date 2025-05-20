@@ -359,7 +359,7 @@ a.js-institutional-message-button.btn-link {
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
     #single-product .js-product-name {
         margin: 20px 0 !important;
         text-align: left;
@@ -369,6 +369,9 @@ a.js-institutional-message-button.btn-link {
         text-align: left;
     }
     #single-product .js-product-slider-placeholder + .row {
+        display: none;
+    }
+    #single-product > .container > .d-md-none {
         display: none;
     }
 }
