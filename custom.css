@@ -199,7 +199,7 @@ a.js-institutional-message-button.btn-link {
     padding-right: 16px;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .form-control,
     .form-select,
     .form-quantity {
@@ -214,6 +214,13 @@ a.js-institutional-message-button.btn-link {
         bottom: 18px;
         font-size: 14px;
         pointer-events: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .form-control-ios.form-control-area {
+        margin-bottom: -64px;
+        height: auto;
     }
 }
 
