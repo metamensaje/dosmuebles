@@ -903,6 +903,18 @@ body.template-category .js-footer {
     margin-bottom: 16px;
 }
 
+@media screen and (max-width: 575px) {
+    #nav-filters .js-modal-close .row.align-items-center {
+        border-bottom: var(--border-standard);
+        display: block;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-weight: 600;
+        font-size: 10px;
+        padding: 5px 15px 20px;
+    }
+}
+
 .modal-header,
 .modal-body,
 .modal-footer {
