@@ -975,7 +975,7 @@ body.template-category .js-footer {
     display: none !important;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 575px) {
     .template-contact .page-header {
         border-top: var(--border-standard);
         max-width: unset;
