@@ -309,9 +309,13 @@ a.js-institutional-message-button.btn-link {
     }
     .modal-nav-hamburger .nav-list-link {
         font-family: var(--heading-font);
+        font-size: var(--font-big);
+        font-family: var(--body-font);
+        font-size: var(--font-size-xs);
         text-transform: initial;
         letter-spacing: 0;
-        font-size: var(--font-big);
+        text-transform: uppercase;
+        color: var(--color-primary);
     }
     .nav-primary .nav-list::before {
         content: 'Menu';
