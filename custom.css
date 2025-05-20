@@ -616,6 +616,12 @@ body.template-category>.container .mt-2.mb-4.text-center {
     max-width: 640px;
 }
 
+@media screen and (max-width: 575px) {
+    body.template-category>.container .mt-2.mb-4.text-center {
+        padding: 0 25px;
+    }
+}
+
 body.template-category>.container .page-header .breadcrumbs {
     display: none;
 }
