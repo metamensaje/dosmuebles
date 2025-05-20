@@ -330,6 +330,9 @@ a.js-institutional-message-button.btn-link {
         font-size: 10px;
         padding: 5px 15px 20px;
     }
+    .nav-primary .js-menu-panel .js-toggle-menu-back .col.pr-4.mr-2 {
+        padding: 0 !important;
+    }
     .nav-primary .js-menu-panel .modal-back {
         position: absolute;
         top: -6px;
