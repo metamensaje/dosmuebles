@@ -823,6 +823,12 @@ body.template-category .js-footer {
     background-color: #f1ece5;
 }
 
+@media screen and (max-width: 575px) {
+    .btn-primary {
+        height: 50px;
+    }
+}
+
 /* modal */
 #nav-filter .btn-default {
     letter-spacing: var(--letter-spacing-wide);
@@ -935,7 +941,7 @@ body.template-category .js-footer {
         font-weight: 600;
         font-size: 10px;
         text-align: left;
-        padding-left: 15px;
+        padding-left: 15px !important;
     }
     #modal-cart .form-row[data-component="product.quantity"] {
         height: 50px;
