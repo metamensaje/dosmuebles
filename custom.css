@@ -981,11 +981,19 @@ body.template-category .js-footer {
 }
 
 .template-contact .contact-page .container>.row>.col-md-6 {
-    flex: 1;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 6rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+    .template-contact .contact-page .container>.row>.col-md-6 {
+        flex: 1;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6rem;
+    }
 }
 
 .template-contact .contact-page .container>.row>.col-md-6>.text-center {
