@@ -778,6 +778,11 @@ body.template-category .js-footer {
     flex: 1;
 }
 
+.about-2-col {
+    display: grid;
+    gap: 4rem;
+}
+
 @media (min-width: 768px) {
     .about-2-col {
         display: grid;
