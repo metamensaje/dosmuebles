@@ -584,6 +584,7 @@ body.template-category>.container {
     body.template-category>.container {
         padding: 40px 0 !important;
         border-top: var(--border-standard);
+        margin-top: 15px;
     }
 }
 
