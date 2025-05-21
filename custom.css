@@ -690,23 +690,10 @@ body.template-category .js-footer {
     
     #single-product .swiper-product-thumb {
         height: auto !important;
-        pointer-events: none;
-    }
-
-    #single-product .swiper-slide {
-        pointer-events: none;
     }
 
     #single-product .swiper-product-thumb+div {
         display: none !important;
-    }
-    
-    #single-product .swiper-wrapper {
-        flex-direction: column;
-    }
-    
-    #single-product .js-swiper-product .swiper-wrapper {
-        gap: 12px;
     }
 
     .product-thumb img {
