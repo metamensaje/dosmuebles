@@ -138,6 +138,10 @@
     letter-spacing: 0;
 }
 
+.js-banners-news .js-swiper-banners-news-controls {
+    display: none;
+}
+
 @media screen and (max-width: 575px) {
     .section-banners-home[data-store="home-banner-news"] .textbanner-image {
         padding-top: 150%;
