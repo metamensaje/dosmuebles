@@ -117,7 +117,9 @@
 }
 
 /* Banner & Overlay */
-.js-banners-news .js-banner-container.container-fluid::after,
+
+/* .js-banners-news .js-banner-container.container-fluid::after, .js-banner .js-textbanner .js-textbanner-image-container::after {} */
+
 .js-banner .js-textbanner .js-textbanner-image-container::after {
     content: "";
     position: absolute;
@@ -139,6 +141,12 @@
 }
 
 .js-banners-news .js-swiper-banners-news-controls {
+    margin-top: 0 !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.js-banners-news .js-swiper-banners-news-controls .swiper-pagination-fraction {
     display: none;
 }
 
