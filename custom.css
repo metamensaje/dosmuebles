@@ -1149,3 +1149,17 @@ body:not(.template-home) .js-footer {
     border-top: var(--border-standard);
     padding-top: var(--spacing-section);
 }
+
+/* testimonials */
+
+.section-testimonials-home h2 {
+    font-family: var(--heading-font);
+    color: var(--color-primary);
+    font-size: var(--font-size-lg);
+    letter-spacing: 0;
+    margin-top: 60px !important;
+}
+
+.testimonials-image {
+    display: none!important;
+}
