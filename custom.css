@@ -610,6 +610,7 @@ a.js-institutional-message-button.btn-link {
 .js-footer .font-smallest {
     font-size: var(--font-size-xs) !important;
     color: var(--color-text-muted) !important;
+    margin-right: 0 !important;
 }
 
 /* Category Page */
