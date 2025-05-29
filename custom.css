@@ -1184,3 +1184,11 @@ body:not(.template-home) .js-footer {
 .js-ig-success + .text-center {
     display: none;
 }
+
+/* promotional */
+
+@media (min-width: 768px) {
+    .js-banners-promotional .js-banner-container {
+        width: 50%;
+    }
+}
