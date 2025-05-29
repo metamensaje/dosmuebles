@@ -1163,3 +1163,22 @@ body:not(.template-home) .js-footer {
 .testimonials-image {
     display: none!important;
 }
+
+/* instagram */
+
+.instafeed-title .h3 {
+    padding-bottom: var(--spacing-md);
+}
+
+.instafeed-title .icon-inline {
+    display: none;
+}
+
+.section-instafeed-home {
+    border-top: var(--border-standard);
+    padding-top: var(--spacing-section) !important;
+}
+
+.js-ig-success + .text-center {
+    display: none;
+}
