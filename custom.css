@@ -844,6 +844,10 @@ body.template-category .js-footer {
         padding: 4rem 0;
         border-top: var(--border-standard);
         border-bottom: var(--border-standard);
+        margin-bottom: 0;
+    }
+    .about-2-col.border + .about-2-col.border {
+        margin-top: -1px;
     }
     .template-page .user-content {
         padding-bottom: 6rem !important;
