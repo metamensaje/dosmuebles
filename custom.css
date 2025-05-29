@@ -1192,3 +1192,7 @@ body:not(.template-home) .js-footer {
         width: 50%;
     }
 }
+
+.js-banners-promotional .textbanner-image {
+    position: relative;
+    padding-top: 90%;
