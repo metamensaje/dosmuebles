@@ -1157,11 +1157,14 @@ body:not(.template-home) .js-footer {
     color: var(--color-primary);
     font-size: var(--font-size-lg);
     letter-spacing: 0;
-    margin-top: 60px !important;
 }
 
 .testimonials-image {
     display: none!important;
+}
+
+.section-testimonials-home {
+    padding: var(--spacing-section-large) 0 var(--spacing-section);
 }
 
 /* instagram */
