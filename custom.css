@@ -291,10 +291,6 @@ a.js-institutional-message-button.btn-link {
     padding: var(--spacing-section) 0 !important;
 }
 
-.section-banners-home {
-    background: #DDDAD3;
-}
-
 .js-products-featured-title,
 .js-banners-section-title {
     font-family: var(--heading-font);
@@ -1189,6 +1185,10 @@ body:not(.template-home) .js-footer {
 }
 
 /* promotional */
+
+.section-modules-home + .section-banners-home {
+    background: #DDDAD3;
+}
 
 @media (min-width: 768px) {
     .js-banners-promotional .js-banner-container.container-fluid {
