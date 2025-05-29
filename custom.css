@@ -110,11 +110,17 @@
     .head-main .section-adbar {
         margin-bottom: 32px;
     }
-
     .section-featured-home .item-description {
         padding: 40px 0 20px;
     }
+    .section-adbar .swiper-button-prev {
+        left: 60px;
+    }
+    .section-adbar .swiper-button-next {
+        right: 60px;
+    }
 }
+
 
 /* Banner & Overlay */
 
@@ -1189,13 +1195,17 @@ body:not(.template-home) .js-footer {
 .section-modules-home + .section-banners-home {
     background: #DDDAD3;
 }
+.js-banners-promotional .textbanner-image {
+    padding-top: 90%;
+}
 
 @media (min-width: 768px) {
     .js-banners-promotional .js-banner-container.container-fluid {
         width: 50%;
     }
 }
-
-.js-banners-promotional .textbanner-image {
-    padding-top: 90%;
+@media screen and (max-width: 575px) {
+    .js-banners-promotional .js-banner-container.container-fluid {
+        padding: 0 25px !important;
+    }
 }
