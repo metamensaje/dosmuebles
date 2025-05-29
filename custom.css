@@ -289,6 +289,9 @@ a.js-institutional-message-button.btn-link {
 .section-products-related,
 .section-banners-home {
     padding: var(--spacing-section) 0 !important;
+}
+
+.section-banners-home {
     background: #DDDAD3;
 }
 
