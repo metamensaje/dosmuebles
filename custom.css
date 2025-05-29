@@ -1208,4 +1208,8 @@ body:not(.template-home) .js-footer {
     .js-banners-promotional .js-banner-container.container-fluid {
         padding: 0 25px !important;
     }
+    .instafeed-col {
+        flex: 0 0 50%!important;
+        max-width: 50%!important;
+    }
 }
