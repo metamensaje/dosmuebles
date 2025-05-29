@@ -838,6 +838,7 @@ body.template-category .js-footer {
         grid-template-columns: 1fr 1fr;
         gap: var(--spacing-sm);
         align-items: center;
+        margin: 4rem 0;
     }
 
     .template-page .user-content {
