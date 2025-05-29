@@ -1167,6 +1167,10 @@ body:not(.template-home) .js-footer {
     padding: var(--spacing-section-large) 0 var(--spacing-section);
 }
 
+.js-swiper-testimonials .swiper-slide .h6 {
+    margin: 3rem 0 1rem !important;
+}
+
 /* instagram */
 
 .instafeed-title .h3 {
