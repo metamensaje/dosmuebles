@@ -831,6 +831,9 @@ body.template-category .js-footer {
     display: grid;
     gap: 4rem;
 }
+.border-bottom-0 {
+    border-bottom: 0!important;
+}
 
 @media (min-width: 768px) {
     .about-2-col {
