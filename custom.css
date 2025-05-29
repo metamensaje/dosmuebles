@@ -849,6 +849,9 @@ body.template-category .js-footer {
     .about-2-col.border + .about-2-col.border {
         margin-top: -1px;
     }
+    .about-2-col.border p {
+        padding: 0 4rem;
+    }
     .template-page .user-content {
         padding-bottom: 6rem !important;
     }
