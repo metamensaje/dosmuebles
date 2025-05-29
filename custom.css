@@ -1194,5 +1194,5 @@ body:not(.template-home) .js-footer {
 }
 
 .js-banners-promotional .textbanner-image {
-    position: relative;
     padding-top: 90%;
+}
