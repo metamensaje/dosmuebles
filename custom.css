@@ -859,6 +859,9 @@ body.template-category .js-footer {
         gap: 0;
         margin-bottom: 4rem;
     }
+    .about-2-col.border:last-of-type p {
+        margin-bottom: 0;
+    }
 }
 
 .template-page .breadcrumbs {
