@@ -840,7 +840,11 @@ body.template-category .js-footer {
         align-items: center;
         margin: 4rem 0;
     }
-
+    .about-2-col.border {
+        padding: 4rem 0;
+        border-top: var(--border-standard);
+        border-bottom: var(--border-standard);
+    }
     .template-page .user-content {
         padding-bottom: 6rem !important;
     }
