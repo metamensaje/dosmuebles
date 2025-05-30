@@ -1228,6 +1228,7 @@ body:not(.template-home) .js-footer {
 @media (min-width: 768px) {
     .js-banners-promotional .js-banner-container.container-fluid {
         width: 50%;
+        max-width: 540px;
     }
 }
 @media screen and (max-width: 575px) {
